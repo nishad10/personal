@@ -18,9 +18,9 @@
     "web-vitals": "^1.0.1"
   },
   "scripts": {
-    "start": "CI=false react-scripts start",
+    "start": "SET CI=false react-scripts start",
     "build": "SET CI=false react-scripts build",
-    "buildprod": "CI=false react-scripts build",
+    "buildprod": "SET CI=false react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
